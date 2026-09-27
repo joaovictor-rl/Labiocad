@@ -65,6 +65,11 @@ export default function Publicacoes() {
                 <h3>{p.titulo}</h3>
                 <p className="venue">{p.veiculo}</p>
                 <p className="authors">{p.autores}</p>
+                {p.link && (
+                  <a className="text-link" href={p.link} target="_blank" rel="noreferrer">
+                    Ver publicação ↗
+                  </a>
+                )}
               </div>
             </article>
           ))}

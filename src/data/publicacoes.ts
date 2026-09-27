@@ -10,6 +10,7 @@ export const publicacoes: Publicacao[] = [
     tipo: 'Periódico',
     area: 'Bioinformática',
     imagem: 'img/shrpnd.jpeg',
+    link: 'https://www.mdpi.com/2072-6651/12/3/141',
   },
   {
     id: 2,
@@ -20,6 +21,7 @@ export const publicacoes: Publicacao[] = [
     tipo: 'Periódico',
     area: 'Bioinformática',
     imagem: 'img/hvimg.jpeg',
+    link: 'https://doi.org/10.1089/aid.2019.0191',
   },
   {
     id: 3,
@@ -30,6 +32,7 @@ export const publicacoes: Publicacao[] = [
     tipo: 'Periódico',
     area: 'Bioinformática',
     imagem: 'img/bac.jpeg',
+    link: 'https://doi.org/10.1128/genomea.01069-17',
   },
   {
     id: 4,
@@ -40,6 +43,7 @@ export const publicacoes: Publicacao[] = [
     tipo: 'Anais de congresso',
     area: 'Bioinformática',
     imagem: 'img/microb.jpeg',
+    link: 'https://sol.sbc.org.br/index.php/bresci/article/view/10034',
   },
   {
     id: 5,
@@ -50,6 +54,7 @@ export const publicacoes: Publicacao[] = [
     tipo: 'Anais de congresso',
     area: 'Educação',
     imagem: 'img/gamepdg.jpeg',
+    link: 'https://sol.sbc.org.br/index.php/wie/article/view/13212',
   },
   {
     id: 6,
@@ -60,6 +65,7 @@ export const publicacoes: Publicacao[] = [
     tipo: 'Anais de congresso',
     area: 'Bioinformática',
     imagem: 'img/gntcal.png',
+    link: 'https://doi.org/10.1007/978-3-319-65340-2_33',
   },
 ];
 

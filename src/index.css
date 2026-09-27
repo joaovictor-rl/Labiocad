@@ -64,12 +64,10 @@ img { max-width: 100%; display: block; }
   body { padding-inline: 8px; }
   .edge-bar { width: 8px; }
 }
-/* Barra de rolagem fina e na paleta do site — a barra cinza padrão do sistema destoava do resto do design. */
-* { scrollbar-width: thin; scrollbar-color: var(--faint) transparent; }
-::-webkit-scrollbar { width: 10px; height: 10px; }
-::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { background: var(--faint); border-radius: 999px; border: 2px solid var(--bg); }
-::-webkit-scrollbar-thumb:hover { background: var(--muted); }
+/* Esconde a barra de rolagem do sistema (a página continua rolando normalmente com mouse,
+   trackpad, roda do mouse e teclado — só a barra visual some). */
+* { scrollbar-width: none; -ms-overflow-style: none; }
+*::-webkit-scrollbar { display: none; width: 0; height: 0; }
 
 a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; text-underline-offset: 3px; }

@@ -21,6 +21,7 @@ export interface Publicacao {
   tipo: TipoPublicacao;
   area: 'Bioinformática' | 'HPC' | 'Educação';
   imagem?: string;
+  link?: string;
 }
 
 export interface Projeto {

@@ -129,6 +129,11 @@ export default function Home() {
                   <div className="pub-meta"><span>{p.ano}</span>·<span>{p.tipo}</span></div>
                   <h3>{p.titulo}</h3>
                   <p className="venue">{p.veiculo}</p>
+                  {p.link && (
+                    <a className="text-link" href={p.link} target="_blank" rel="noreferrer">
+                      Ver publicação ↗
+                    </a>
+                  )}
                 </div>
               </article>
             ))}
